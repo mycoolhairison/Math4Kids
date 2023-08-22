@@ -14,6 +14,12 @@
 		2793613A2A947474008474DA /* Math4KidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361392A947474008474DA /* Math4KidsTests.swift */; };
 		279361442A947474008474DA /* Math4KidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361432A947474008474DA /* Math4KidsUITests.swift */; };
 		279361462A947474008474DA /* Math4KidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361452A947474008474DA /* Math4KidsUITestsLaunchTests.swift */; };
+		279361532A9474CE008474DA /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361522A9474CE008474DA /* AdditionView.swift */; };
+		279361552A9474DB008474DA /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361542A9474DB008474DA /* AnswerButton.swift */; };
+		279361572A9474F2008474DA /* CountingColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361562A9474F2008474DA /* CountingColorView.swift */; };
+		279361592A9474FF008474DA /* CountingShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279361582A9474FF008474DA /* CountingShapeView.swift */; };
+		2793615B2A94754F008474DA /* CountingDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793615A2A94754F008474DA /* CountingDotsView.swift */; };
+		2793615D2A94756A008474DA /* LetterCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793615C2A94756A008474DA /* LetterCompleteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		2793613F2A947474008474DA /* Math4KidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Math4KidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279361432A947474008474DA /* Math4KidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math4KidsUITests.swift; sourceTree = "<group>"; };
 		279361452A947474008474DA /* Math4KidsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math4KidsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		279361522A9474CE008474DA /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
+		279361542A9474DB008474DA /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		279361562A9474F2008474DA /* CountingColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingColorView.swift; sourceTree = "<group>"; };
+		279361582A9474FF008474DA /* CountingShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingShapeView.swift; sourceTree = "<group>"; };
+		2793615A2A94754F008474DA /* CountingDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingDotsView.swift; sourceTree = "<group>"; };
+		2793615C2A94756A008474DA /* LetterCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCompleteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				2793612A2A947472008474DA /* ContentView.swift */,
 				2793612C2A947474008474DA /* Assets.xcassets */,
 				2793612E2A947474008474DA /* Preview Content */,
+				279361522A9474CE008474DA /* AdditionView.swift */,
+				279361542A9474DB008474DA /* AnswerButton.swift */,
+				279361562A9474F2008474DA /* CountingColorView.swift */,
+				2793615A2A94754F008474DA /* CountingDotsView.swift */,
+				279361582A9474FF008474DA /* CountingShapeView.swift */,
+				2793615C2A94756A008474DA /* LetterCompleteView.swift */,
 			);
 			path = Math4Kids;
 			sourceTree = "<group>";
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2793612B2A947472008474DA /* ContentView.swift in Sources */,
+				2793615B2A94754F008474DA /* CountingDotsView.swift in Sources */,
+				279361552A9474DB008474DA /* AnswerButton.swift in Sources */,
+				279361572A9474F2008474DA /* CountingColorView.swift in Sources */,
 				279361292A947472008474DA /* Math4KidsApp.swift in Sources */,
+				279361532A9474CE008474DA /* AdditionView.swift in Sources */,
+				279361592A9474FF008474DA /* CountingShapeView.swift in Sources */,
+				2793615D2A94756A008474DA /* LetterCompleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
